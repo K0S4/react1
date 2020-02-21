@@ -67,12 +67,12 @@ body {
 
 #content {
   position: fixed;
-  background-color: #fff;
+  
   height: 100%;
   width: 100%;
   font-family: 'Bebas Neue', sans-serif;
   text-align: center;
-  /* background-image: linear-gradient(0deg, #7dbbfa, #fff); */
+   
   ;
 }
 
@@ -84,8 +84,12 @@ body {
   text-decoration: underline;
   font-size: 2vw;
 }
-#content-alt-bg {
-  background-color: chocolate !important;
-  background-image: none !important;
+.content-alt-bg {
+  background-color: chocolate;
+  background-image: none;
   font-size: large;
+}
+.content-bg{
+  background-image: linear-gradient(0deg, #7dbbfa, #fff);
+  background-color: #fff;
 }
